@@ -31,4 +31,91 @@
     border-radius: 20px;
     margin-left: 6px;
 }
+.nav-icon{
+    display: none;
+    font-size: 2.4rem;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.678);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.11);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+.sidebar .franchise-btn {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 12px 15px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: -5px;
+}
+.sidebar li{
+    padding: 12px 20px;
+}
+.sidebar a{
+    color: var(--black) !important;
+}
+.sidebar li:hover{
+    background-color: #f0f0f0;
+    width: 100%;
+    cursor: pointer;
+}
+.close {
+    font-size: 2.4rem;
+}
+.order-btn2{
+    display: none;
+}
 /* navbar ended */
+@media(max-width:323px){
+    header{
+        display: none;
+    }
+}
+@media screen and (min-device-width: 324px) and (max-device-width: 991px) { 
+    .nav-icon{
+        display: block;
+        margin: -12px 0 0 13px;
+    }  
+    .nav-items{
+        display: none !important;
+    }
+    .navbar{
+        justify-content: space-between !important;
+    }
+    .order-btn2{
+        display: block;
+    }
+    .order-btn {
+        background-color: var(--red);
+        border: none;
+        border-radius: 30px;
+        padding: 11px 10px;
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-left: 0px;
+        margin-right: 12px;
+        margin-top: -7px;
+    }
+    .order-btn-arrow{
+        color: var(--white) !important;
+        background-color: transparent !important; 
+        padding:0 0 ;
+        border-radius: 0px ;
+        margin-left: 5px ;
+    }
+    .logo-img {
+        width: 85px;
+    }
+}
