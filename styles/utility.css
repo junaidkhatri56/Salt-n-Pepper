@@ -78,6 +78,13 @@ body{
 .gap-25{
     gap: 25px;
 }
+.gap-30{
+    gap: 30px;
+}
+.gap-35{
+    gap: 35px;
+}
+
 
 /* display flex utility clasess ended */
 
@@ -85,6 +92,10 @@ body{
 
 /* other utility clasess started */
 
+.anchor {
+    text-decoration: none;
+    color: var(--white);
+}
 .text-center{
     text-align: center;
 }
