@@ -40,6 +40,51 @@
     <!-- navbar ended -->
     </header>
 
+
+
+     <main>
+            <!-- banner section-1 slider started -->
+    
+            <div class="sec-1">
+                <img class="mySlides" src="./assets/imges/ac51af11-090c-49e8-9296-472de72fc5cb.webp">   
+                <img class="mySlides" src="./assets/imges/cb3c2d22-7957-4c35-a140-367b8464f7a3.webp">
+                <img class="mySlides" src="./assets/imges/d47575d1-42d9-43f7-84b2-f11adea5f8eb.webp">
+                <img class="mySlides" src="./assets/./imges/b09ef44d-de2e-4a81-b34b-2f921866ab0b.webp">
+            </div>
+            <!-- banner section-1 slider ended -->
+
+             <!-- banner section-2 brands started -->
+            <div class="sec-2">
+                 <div class="sec-2-h-p text-center">
+                      <h2>Welcome to <span>Salt'n Pepper</span> <br>
+                        Restaurants! Our Brands</h2>
+                      <p>Please click our brands below for further information, reservations or to order online!</p>  
+                 </div>
+                 <div class="brands d-flex justify-c wrap gap-35">
+                      <div class="brand1">
+                           <img src="./assets/imges/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp" alt="">
+                           <button class="brand-btn"><a class="anchor" href="">Order Now</a></button>
+                      </div>
+                      <div class="brand2">
+                           <img src="./assets/imges/9d9cb355-ac8c-404e-a608-c28242343cd1.webp" alt="">
+                           <button class="brand-btn"><a class="anchor" href="">Order Now</a></button>
+                      </div>
+                      <div class="brand3">
+                           <img src="./assets/imges/f9238d0e-7c34-4139-a081-c57b7713628e.webp" alt="">
+                           <button class="brand-btn"><a class="anchor" href="">Order Now</a></button>
+                      </div>
+                 </div>
+            </div>
+            <!-- banner section-2 brands started -->
+    </main>
+
+
+
+
+
+
+
+
     <script src="https://kit.fontawesome.com/24f85a6097.js" crossorigin="anonymous"></script>
     <script>
        function showSidebar() {
@@ -51,10 +96,26 @@
     } else {
         sidebar.style.display = 'none'; // Hide sidebar on larger screens
     }
-}
+    }
         function hideSidebar(){
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
+        }
+    </script>
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 3000); // Change image every 2 seconds
         }
     </script>
 </body>
