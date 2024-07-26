@@ -147,6 +147,7 @@
     padding: 70px;
 }
 .sec-3-h-p h2{
+    font-family: var(--b-bold);
     margin-bottom: 8px;
     font-style: normal;
     font-size: 48px;
@@ -171,7 +172,7 @@
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 48px;
 }
-small {
+.restaurants .left small {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -227,15 +228,14 @@ small {
     border-radius: 20px;
     margin-left: 10px;
 }
-.restaurants img{
-    width: 100%;
+.res-1 .right img {
+    margin-left: 70px;
 }
-/* .res-1 .right img {
-    margin-left: 60px;
-    width: 90%;
-} */
 .res-2 {
-    margin: 48px 35px;
+    margin: 48px 27px;
+}
+img.res-3-img {
+    margin-right: 25px;
 }
 .s-img {
     position: absolute;
@@ -244,18 +244,293 @@ small {
 }
 /* --------------------------section-3 Restaurant Franchises ended-------------------------- */
 
+/* --------------------------section-4 Expresss Franchises started-------------------------- */
+.sec-4{
+    position: relative;
+    padding: 70px;
+}
+.sec-4-h h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.sec-4-h h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.p-img {
+    position: absolute;
+    left: 33px;
+    top: 40px;
+    z-index: -1;
+}
+.express img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.express small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    text-align: center;
+    margin-bottom: 8px;
+    display: block;
+    margin-top: 24px;
+}
+.express h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.express h3 span{
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.express p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+    height: 36px;
+    text-align: center;
+}
+.express button{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.express .order-btn-arrow{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.express .order-btn-arrow i{
+    transform: rotate(-37deg);
+}
+.color-img {
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+}
+/* --------------------------section-4 Expresss Franchises started-------------------------- */
+
+/* --------------------------section-5 Village Franchises started-------------------------- */
+
+.sec-5{
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 48px 0px;
+}
+.sec-5-h h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.sec-5-h h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.Village .left {
+    width: 50% !important;
+}
+.Village .left img{
+    width: 100% !important;
+}
+.Village .right{
+    margin: auto 0;
+}
+.Village small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.Village h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.Village h3 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Village p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.Village button{
+    width: 174px;
+    height: 50px;
+    border: none;
+    background-color: var(--green);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.Village .order-btn-arrow{
+    background-color: var(--white);
+    color: var(--green);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+/* --------------------------section-5 Village Franchises ended-------------------------- */
+
+/* --------------------------section-6 Opening Soon Franchises Startted-------------------------- */
+
+.sec-6{
+    padding: 60px 0px 60px;
+}
+.sec-6-h h2{
+    font-family: var(--b-bold);
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 51px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.sec-6-h h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+}
+.sec-6-h h2 small{
+    font-family: var(--b-bold);
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+}
+.box{
+    width: 26%;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    padding: 25px 24px;
+    margin-bottom: 2px;
+}
+.box img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.box small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.box h4{
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.box h4 span{
+    font-weight: 600;
+    margin-right: 8px;
+    font-size: 24px;
+}
+.box p{
+    font-family: 'FuturaBlack BT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+/* --------------------------section-6 Opening Soon Franchises ended-------------------------- */
 
 
+/* --------------------------section-7 Social Feed Startded-------------------------- */
+
+.sec-7-h h2{
+    margin-bottom: 0px;
+    padding-bottom: 32px;
+    font-family: var(--b-bold);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+}
 
 
-
-
-
-
-
-
-
-
+/* --------------------------section-7 Social Feed ended-------------------------- */
 
 
 

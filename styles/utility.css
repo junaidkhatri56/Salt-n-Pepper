@@ -17,6 +17,10 @@
     font-family:futurak;
     src: url(../fonts/futurak.ttf);
 }
+@font-face {
+    font-family:butlur;
+    src: url(../fonts/Butler_Bold.otf);
+}
 :root{
     --black:#000000;
     --white:#ffffff;
@@ -26,6 +30,7 @@
     --medium:apercu-medium;
     --bold  :apercu-bold;
     --f-bold:futurak;
+    --b-bold:butlur;
 }
 *{
     margin: 0;
