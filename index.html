@@ -502,25 +502,13 @@
     </script>
     <script type="text/javascript" src="./assets/slick/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="./assets/slick/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/slick/slick.min.js"></script>
     <script>
-        $('.social-images').slick({
+       $(document).ready(function(){
+                $('.social-images').slick({
         slidesToShow: 5,
         slidesToScroll: 1
         });
-
-        var filtered = false;
-
-        $('.js-filter').on('click', function(){
-        if (filtered === false) {
-            $('.social-images').slick('slickFilter',':even');
-            $(this).text('Unfilter Slides');
-            filtered = true;
-        } else {
-            $('.social-images').slick('slickUnfilter');
-            $(this).text('Filter Slides');
-            filtered = false;
-        }
         });
     </script>
 </body>
