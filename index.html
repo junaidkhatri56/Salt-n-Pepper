@@ -6,8 +6,8 @@
     <title>Salt'n Pepper</title>
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/utility.css">
-    <link rel="stylesheet" type="text/css" href="./assets/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="./assets/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./assets/slick/slick.css"/>
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css"/>
 </head>
 <body>
     <header>
@@ -388,7 +388,6 @@
                   </div>
             </div>
             <!-- section-7 Social Feed ended -->
-
     </main>
 
 
@@ -396,6 +395,67 @@
 
 
 
+    <!-- footer-section started -->
+
+   <footer>
+    <section class="footer-section d-flex justify-c wrap">
+           <div class="footer-1">
+                <img src="./assets/imges/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp" alt="logo-img">
+                <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+                <ul>
+                    <li> Terms & conditions </li>
+                    <li> Privacy policy</li>
+                </ul>
+            </div>
+           <div class="footer-2">
+                <h3>Site Links</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Publications</a></li>
+                    <li><a href="">Get a Franchise</a></li>
+                    <li><a href="">Feedback</a></li>
+                </ul>
+           </div>
+           <div class="footer-3">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li class="contact_heading">Head office Address</li>
+                    <li><a href="">23-Usman Block, New GardenTown, Lahore, Pakistan</a></li>
+                    <li class="contact_heading">Head office number</li>
+                    <li><a href="">+92 42 358 509 31</a></li>
+                    <li><a href="">+92 42 358 509 30</a></li>
+                    <li class="contact_heading">Email Address</li>
+                    <li><a href="">snpfood@brain.net.pk</a></li>
+                    <li class="contact_heading">Free delivery number</li>
+                    <li><a href="">+92 42 111 100 678</a></li>
+                    <li><a href="">+92 03 111 444 610</a></li>
+                </ul>
+           </div>
+           <div class="footer-4">
+                <h3>Follow Us</h3>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <img src="./assets/imges/footer-4-img-1.webp" alt="">
+                <img src="./assets/imges/footer-4-img-2.webp" alt="">
+           </div>
+    </section>
+    <section class="copy-right d-flex justify-sb wrap">
+             <div class="copy-right-left">
+                <p>© 2023 <span>Salt'n Pepper Restaurant.</span></p>
+             </div>
+             <div class="copy-right-right">
+                <p>Powered Bytossdown.com</p>
+             </div>
+    </section>
+    <div class="footer-snp-layer">
+        <img src="./assets/imges/f-s-i.webp">
+    </div>
+   </footer>
+
+
+<!-- footer-section ended -->
 
 
 
@@ -444,7 +504,7 @@
     <script type="text/javascript" src="./assets/slick/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/slick/slick.min.js"></script>
     <script>
-        $('.filtering').slick({
+        $('.social-images').slick({
         slidesToShow: 5,
         slidesToScroll: 1
         });
@@ -453,11 +513,11 @@
 
         $('.js-filter').on('click', function(){
         if (filtered === false) {
-            $('.filtering').slick('slickFilter',':even');
+            $('.social-images').slick('slickFilter',':even');
             $(this).text('Unfilter Slides');
             filtered = true;
         } else {
-            $('.filtering').slick('slickUnfilter');
+            $('.social-images').slick('slickUnfilter');
             $(this).text('Filter Slides');
             filtered = false;
         }
