@@ -140,9 +140,109 @@
 /* --------------------------sec-2  brands ended-------------------------- */
 
 
-
-
-
+/* --------------------------section-3 Restaurant Franchises started-------------------------- */
+.sec-3{
+    position: relative;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 70px;
+}
+.sec-3-h-p h2{
+    margin-bottom: 8px;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.sec-3-h-p h2 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.sec-3-h-p p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 48px;
+}
+small {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.restaurants .left h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.restaurants .left h3 span {
+    font-family: var(--f-bold);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.restaurants .left p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+.restaurants .left button{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.restaurants .left .order-btn-arrow{
+    background-color: var(--white);
+    color: var(--red);
+    padding: 6px 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.restaurants img{
+    width: 100%;
+}
+/* .res-1 .right img {
+    margin-left: 60px;
+    width: 90%;
+} */
+.res-2 {
+    margin: 48px 35px;
+}
+.s-img {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+}
+/* --------------------------section-3 Restaurant Franchises ended-------------------------- */
 
 
 
